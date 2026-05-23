@@ -1,0 +1,138 @@
+aid: estuary-flow
+name: Estuary Flow
+description: >-
+  Estuary Flow is a real-time data movement and transformation platform
+  combining streaming infrastructure, a runtime, and an open-source ecosystem
+  of connectors. It supports change data capture (CDC), SaaS integration,
+  database replication, streaming lakehouse, and real-time analytics
+  pipelines. Users build pipelines as captures, collections, derivations, and
+  materializations - manageable from the web dashboard, the flowctl CLI, and
+  a REST/agent API.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: >-
+  https://raw.githubusercontent.com/api-evangelist/estuary-flow/refs/heads/main/apis.yml
+created: '2026-05-23'
+modified: '2026-05-23'
+specificationVersion: '0.19'
+tags:
+  - Data
+  - Streaming
+  - Change Data Capture
+  - CDC
+  - ETL
+  - ELT
+  - Real-Time
+  - Data Pipelines
+  - Connectors
+  - Lakehouse
+apis:
+  - aid: estuary-flow:agent-api
+    name: Estuary Flow Agent API
+    description: >-
+      REST/JSON API backing the Estuary Flow web dashboard and flowctl CLI.
+      Manages captures, collections, materializations, derivations, drafts,
+      publications, tenants, and role grants. Authenticated with a bearer
+      token obtained from the dashboard.
+    humanURL: https://docs.estuary.dev/concepts/web-app/
+    baseURL: https://agent-api-1084703453822.us-central1.run.app
+    tags:
+      - REST
+      - Captures
+      - Collections
+      - Materializations
+      - Derivations
+    properties:
+      - type: Documentation
+        url: https://docs.estuary.dev/concepts/
+      - type: Authentication
+        url: https://docs.estuary.dev/guides/how_to_generate_refresh_token/
+  - aid: estuary-flow:openmetrics-api
+    name: Estuary Flow OpenMetrics API
+    description: >-
+      OpenMetrics-compatible endpoint that exposes per-task pipeline metrics
+      for captures, materializations, and derivations. Designed to be scraped
+      by Prometheus or other OpenMetrics-aware observability systems.
+    humanURL: https://docs.estuary.dev/reference/openmetrics-api/
+    baseURL: https://agent-api-1084703453822.us-central1.run.app
+    tags:
+      - OpenMetrics
+      - Prometheus
+      - Observability
+      - Metrics
+    properties:
+      - type: Documentation
+        url: https://docs.estuary.dev/reference/openmetrics-api/
+  - aid: estuary-flow:flowctl-cli
+    name: flowctl CLI
+    description: >-
+      Command-line tool for authoring, drafting, testing, and publishing Flow
+      catalogs (captures, collections, derivations, materializations). Wraps
+      the Flow agent API and integrates with local development workflows.
+    humanURL: https://docs.estuary.dev/concepts/flowctl/
+    baseURL: https://docs.estuary.dev/concepts/flowctl/
+    tags:
+      - CLI
+      - Catalog
+      - Drafts
+      - Publications
+    properties:
+      - type: Documentation
+        url: https://docs.estuary.dev/concepts/flowctl/
+      - type: Repository
+        url: https://github.com/estuary/flow
+  - aid: estuary-flow:connectors
+    name: Estuary Flow Connectors
+    description: >-
+      Open-source library of source and destination connectors for SaaS apps,
+      databases, message queues, warehouses, lakehouses, and file systems.
+      Connectors run inside the Flow runtime and are configured as captures
+      or materializations.
+    humanURL: https://docs.estuary.dev/reference/Connectors/
+    baseURL: https://docs.estuary.dev/reference/Connectors/
+    tags:
+      - Connectors
+      - Sources
+      - Destinations
+      - Open Source
+    properties:
+      - type: Documentation
+        url: https://docs.estuary.dev/reference/Connectors/
+      - type: Repository
+        url: https://github.com/estuary/connectors
+common:
+  - type: Website
+    url: https://estuary.dev
+  - type: Portal
+    url: https://docs.estuary.dev
+  - type: Documentation
+    url: https://docs.estuary.dev
+  - type: SignUp
+    url: https://dashboard.estuary.dev/register
+  - type: Login
+    url: https://dashboard.estuary.dev
+  - type: Dashboard
+    url: https://dashboard.estuary.dev
+  - type: Pricing
+    url: https://estuary.dev/pricing/
+  - type: Blog
+    url: https://estuary.dev/blog/
+  - type: GitHub
+    url: https://github.com/estuary
+  - type: Repository
+    url: https://github.com/estuary/flow
+  - type: CLI
+    url: https://docs.estuary.dev/concepts/flowctl/
+  - type: Connectors
+    url: https://docs.estuary.dev/reference/Connectors/
+  - type: TermsOfService
+    url: https://estuary.dev/terms/
+  - type: PrivacyPolicy
+    url: https://estuary.dev/privacy/
+  - type: Support
+    url: https://estuary.dev/contact-us/
+  - type: Community
+    url: https://go.estuary.dev/slack
+maintainers:
+  - FN: Kin Lane
+    email: kinlane@gmail.com

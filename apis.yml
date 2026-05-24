@@ -133,6 +133,8 @@ common:
     url: https://estuary.dev/contact-us/
   - type: Community
     url: https://go.estuary.dev/slack
+  - type: LLMsTxt
+    url: https://estuary.dev/llms.txt
 maintainers:
   - FN: Kin Lane
     email: kinlane@gmail.com

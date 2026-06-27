@@ -107,7 +107,7 @@ common:
     url: https://docs.estuary.dev
   - type: Documentation
     url: https://docs.estuary.dev
-  - type: SignUp
+  - type: Signup
     url: https://dashboard.estuary.dev/register
   - type: Login
     url: https://dashboard.estuary.dev
@@ -123,7 +123,7 @@ common:
     url: https://github.com/estuary/flow
   - type: CLI
     url: https://docs.estuary.dev/concepts/flowctl/
-  - type: Connectors
+  - type: Integrations
     url: https://docs.estuary.dev/reference/Connectors/
   - type: TermsOfService
     url: https://estuary.dev/terms/
@@ -133,7 +133,7 @@ common:
     url: https://estuary.dev/contact-us/
   - type: Community
     url: https://go.estuary.dev/slack
-  - type: LLMsTxt
+  - type: LlmsText
     url: https://estuary.dev/llms.txt
 maintainers:
   - FN: Kin Lane

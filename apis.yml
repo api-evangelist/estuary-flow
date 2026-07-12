@@ -101,6 +101,8 @@ apis:
       - type: Repository
         url: https://github.com/estuary/connectors
 common:
+  - type: DomainSecurity
+    url: security/estuary-flow-domain-security.yml
   - type: Website
     url: https://estuary.dev
   - type: Portal

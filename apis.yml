@@ -113,6 +113,12 @@ apis:
       - type: Repository
         url: https://github.com/estuary/connectors
 common:
+  - type: IssueTracker
+    url: https://github.com/estuary/flow/issues
+  - type: Releases
+    url: https://github.com/estuary/flow/releases
+  - type: ContributionGuide
+    url: https://github.com/estuary/flow/blob/master/CONTRIBUTING.md
   - type: DomainSecurity
     url: security/estuary-flow-domain-security.yml
   - type: Website

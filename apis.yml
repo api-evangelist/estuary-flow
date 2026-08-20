@@ -35,6 +35,17 @@ tags:
   - ETL
   - ELT
   - Real-Time
+  - Data Pipeline
+  - Connectors
+  - Lakehouse
+tags_raw:
+  - Data
+  - Streaming
+  - Change Data Capture
+  - CDC
+  - ETL
+  - ELT
+  - Real-Time
   - Data Pipelines
   - Connectors
   - Lakehouse
@@ -49,6 +60,12 @@ apis:
     humanURL: https://docs.estuary.dev/concepts/web-app/
     baseURL: https://agent-api-1084703453822.us-central1.run.app
     tags:
+      - REST
+      - Capture
+      - Collection
+      - Materializations
+      - Derivations
+    tags_raw:
       - REST
       - Captures
       - Collections
@@ -103,6 +120,11 @@ apis:
     humanURL: https://docs.estuary.dev/reference/Connectors/
     baseURL: https://docs.estuary.dev/reference/Connectors/
     tags:
+      - Connectors
+      - Sources
+      - Destinations
+      - Open-Source
+    tags_raw:
       - Connectors
       - Sources
       - Destinations

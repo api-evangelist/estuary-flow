@@ -192,3 +192,5 @@ common:
 maintainers:
   - FN: Kin Lane
     email: kinlane@gmail.com
+x-parent: estuary
+x-relationship: product

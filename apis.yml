@@ -133,7 +133,7 @@ apis:
     tags:
       - Connectors
       - Sources
-      - Destinations
+      - Destination
       - Open-Source
     tags_raw:
       - Connectors

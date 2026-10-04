@@ -10,16 +10,20 @@ description: >-
   a REST/agent API.
 type: Index
 deliveryModel:
-  model: unknown
+  model: saas
+  license_evidence:
+    not_product:
+    - estuary/connectors
+    - estuary/flow
   open_source: unknown
   commercial: true
   callable_host: false
-  label: Delivery model not determined — needs a product licence on record
+  label: Hosted service · you call their endpoint
   confidence: low
   source:
   - pricing
-  - repository-unlicensed
-  generated: '2026-08-28'
+  - repository-not-product
+  generated: '2026-09-25'
   method: derived
 accessModel:
   pricing: free
@@ -39,6 +43,9 @@ url: >-
 created: '2026-05-23'
 modified: '2026-05-23'
 specificationVersion: '0.23'
+x-docs-platform: docusaurus
+x-docs-platform-confidence: medium
+x-docs-platform-checked: 2026-10-03
 tags:
   - Data
   - Streaming
@@ -53,7 +60,6 @@ tags_raw:
   - Data
   - Streaming
   - Change Data Capture
-  - CDC
   - ETL
   - ELT
   - Real-Time
@@ -134,12 +140,13 @@ apis:
       - Connectors
       - Sources
       - Destination
-      - Open-Source
+      - Open Source
     tags_raw:
       - Connectors
       - Sources
       - Destinations
       - Open Source
+      - Open-Source
     properties:
       - type: Documentation
         url: https://docs.estuary.dev/reference/Connectors/

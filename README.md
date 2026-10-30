@@ -1,4 +1,4 @@
-# estuary-flow
+# Estuary Flow
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,4 +64,110 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Estuary Flow — real-time data pipelines + CDC (streaming ELT)
+Estuary Flow is a real-time data movement and transformation platform combining streaming infrastructure, a runtime, and an open-source ecosystem of connectors. It supports change data capture (CDC), SaaS integration, database replication, streaming lakehouse, and real-time analytics pipelines. Users build pipelines as captures, collections, derivations, and materializations - manageable from the web dashboard, the flowctl CLI, and a REST/agent API.
+
+**Areas:** Data · Streaming · Change Data Capture · ETL · ELT · Real-Time · Data Pipeline · Connectors · Lakehouse
+
+## Estuary Flow on APIs.io
+
+Everything profiled for Estuary Flow is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/estuary-flow/](https://apis.io/providers/estuary-flow/)** — or go straight to one of the APIs or properties below.
+
+### APIs (4)
+
+- [Estuary Flow Agent API](https://apis.io/apis/estuary-flow/agent-api/) — REST/JSON API backing the Estuary Flow web dashboard and flowctl CLI. Manages captures, collections, materializations, derivations, drafts, publications,…
+- [Estuary Flow OpenMetrics API](https://apis.io/apis/estuary-flow/openmetrics-api/) — OpenMetrics-compatible endpoint that exposes per-task pipeline metrics for captures, materializations, and derivations. Designed to be scraped by Prometheus…
+- [flowctl CLI](https://apis.io/apis/estuary-flow/flowctl-cli/) — Command-line tool for authoring, drafting, testing, and publishing Flow catalogs (captures, collections, derivations, materializations). Wraps the Flow…
+- [Estuary Flow Connectors](https://apis.io/apis/estuary-flow/connectors/) — Open-source library of source and destination connectors for SaaS apps, databases, message queues, warehouses, lakehouses, and file systems. Connectors run…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Estuary Flow Domain Security](https://apis.io/security/estuary-flow/estuary-flow-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Estuary Flow Plans Pricing](https://apis.io/plans/estuary-flow/estuary-flow-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Estuary Flow Rate Limits](https://apis.io/rate-limits/estuary-flow/estuary-flow-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Estuary Flow Finops](https://apis.io/finops/estuary-flow/estuary-flow-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://estuary.dev)
+- [Documentation](https://docs.estuary.dev)
+- [Pricing](https://estuary.dev/pricing/)
+- [Support](https://estuary.dev/contact-us/)
+- [Blog](https://estuary.dev/blog/)
+- [Terms of service](https://estuary.dev/terms/)
+- [Privacy policy](https://estuary.dev/privacy/)
+
+## API Evangelist rating
+
+**Kin Score 29.7** — thin · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 78.6 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 26.3 |
+| Developer ergonomics | 45.2 |
+| Access clarity | 43.4 |
+
+**Agent readiness 3.1** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | bearer (partial credit) |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 19.6** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/estuary-flow/](https://apis.io/providers/estuary-flow/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Estuary Flow: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/estuary-flow/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
